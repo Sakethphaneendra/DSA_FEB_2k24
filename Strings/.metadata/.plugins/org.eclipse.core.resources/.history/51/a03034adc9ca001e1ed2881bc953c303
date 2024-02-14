@@ -1,0 +1,19 @@
+package Basics;
+
+
+public class StringBasics1 {
+
+		public static void main(String ar[]) {
+			System.out.println("HEllo World");
+			String val = "Hello World";
+			System.out.print(val);
+			
+			
+			char value[] = {'S','J'}; 
+			
+			System.out.print("\nSize : "+val.length());
+			
+			System.out.print("\nCharAt : "+val.charAt(6));
+		
+		}
+}
