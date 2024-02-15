@@ -1,0 +1,18 @@
+package Basics;
+import java.util.Scanner;
+public class String_Palindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		
+		String org = in.next();
+		
+		
+	}
+	public static String Reverse(String org) {
+		
+		return "s";
+	}
+
+}

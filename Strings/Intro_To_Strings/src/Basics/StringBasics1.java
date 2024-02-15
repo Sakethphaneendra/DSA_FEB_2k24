@@ -28,7 +28,7 @@ public class StringBasics1 {
 			System.out.println(fullName);
 			System.out.println(v1.compareTo("Waste"));
 			
-			
+					
 //		SubString
 			System.out.print(str.substring(18));
 			
