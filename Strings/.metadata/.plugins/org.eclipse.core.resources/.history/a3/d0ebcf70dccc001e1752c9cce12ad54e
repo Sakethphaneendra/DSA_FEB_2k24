@@ -24,7 +24,7 @@ public class String_Palindrome {
 			System.out.print("Not a Palindrome String");
 		}
 		}
-// Okay
+
 }
 
 

@@ -8,8 +8,10 @@ public class String_Palindrome {
 		
 		String org = in.next().toString();
 		
-		int start = 0, end = org.length()-1, mid = end/2,count=0;
+		int start = 0, end = org.length()-1, mid = end/2;
 		
+	
+		int count =0;
 		for(;start<mid;start++) {
 			
 			if(org.charAt(start)==org.charAt(end)) {
@@ -24,7 +26,7 @@ public class String_Palindrome {
 			System.out.print("Not a Palindrome String");
 		}
 		}
-// Okay
+
 }
 
 
