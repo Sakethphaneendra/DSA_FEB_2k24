@@ -1,0 +1,28 @@
+package MID;
+import java.util.Scanner;
+public class SubStrings {
+
+	public static void main(String[] args) {
+	Scanner in = new Scanner(System.in);
+	System.out.print("Enter an String : ");
+	String x = in.next().toLowerCase();
+	
+	System.out.println("Orginal String : "+x);
+	System.out.println("Sub Strings \n ");
+	
+	
+
+	for(int end =x.length();end>0;end--) {
+		for( int start =0;start<end;start++) {
+			System.out.println(x.substring(start,end));
+		}
+	}
+	
+		
+//	Number of SubStrings = n(n+1)/2 
+	
+//	Example n= 8 ==> 8*9/2 = 36 in JayaSree
+	
+	}
+	
+}

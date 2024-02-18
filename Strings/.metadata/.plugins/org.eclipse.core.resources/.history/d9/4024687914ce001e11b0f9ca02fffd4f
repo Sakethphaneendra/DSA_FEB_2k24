@@ -1,0 +1,18 @@
+package MID;
+import java.util.Scanner;
+public class SubStrings {
+
+	public static void main(String[] args) {
+	Scanner in = new Scanner(System.in);
+	System.out.print("Enter an String : ");
+	String x = in.next().toLowerCase();
+	
+	System.out.println(x);
+	int start =0,end =x.length()-1;
+	
+		
+	System.out.print(start + " "+end);
+
+	}
+
+}

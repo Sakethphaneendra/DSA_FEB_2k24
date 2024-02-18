@@ -1,0 +1,24 @@
+package MID;
+import java.util.Scanner;
+public class SubStrings {
+
+	public static void main(String[] args) {
+	Scanner in = new Scanner(System.in);
+	System.out.print("Enter an String : ");
+	String x = in.next().toLowerCase();
+	
+	System.out.println("Orginal String : "+x);
+	System.out.println("Sub Strings \n ");
+	
+	
+int end = x.length();
+		
+	for(int start =0; start<end;start++) {
+		System.out.println(x.substring(start,end));
+	}
+		
+	
+	
+	}
+	
+}
